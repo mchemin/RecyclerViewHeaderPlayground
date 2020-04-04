@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".motionlayout.MotionLayoutActivity" />
+
+        <activity android:name=".mergeadapter.MergeAdapterActivity" />
     </application>
 
 </manifest>
