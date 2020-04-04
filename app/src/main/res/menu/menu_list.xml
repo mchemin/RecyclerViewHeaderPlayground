@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/original"
+        android:title="@string/original"
+        />
+    <item
+        android:id="@+id/filtered"
+        android:title="@string/filter"
+        />
+    <item
+        android:id="@+id/start"
+        android:title="@string/start"
+        />
+    <item
+        android:id="@+id/empty"
+        android:title="@string/empty"
+        />
+</menu>

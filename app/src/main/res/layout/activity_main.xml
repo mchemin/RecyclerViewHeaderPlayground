@@ -6,13 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/motion_layout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:singleLine="true"
+        android:text="@string/motion_layout"
+        app:layout_constraintBottom_toTopOf="@+id/coordinator_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="200dp" />
+
+    <Button
+        android:id="@+id/coordinator_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/coordinator_layout"
+        app:layout_constraintBottom_toTopOf="@+id/merge_adapter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motion_layout"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="200dp" />
+
+    <Button
+        android:id="@+id/merge_adapter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/merge_adapter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coordinator_layout"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="200dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

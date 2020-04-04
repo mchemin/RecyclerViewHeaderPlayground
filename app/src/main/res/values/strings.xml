@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RecyclerViewHeaderPlayground</string>
+
+    <string name="motion_layout">Motion</string>
+    <string name="coordinator_layout">Coordinator</string>
+    <string name="merge_adapter">Merge</string>
+
+    <string name="original">Original</string>
+    <string name="filter">Filtered</string>
+    <string name="start">Start</string>
+    <string name="empty">Empty</string>
 </resources>
