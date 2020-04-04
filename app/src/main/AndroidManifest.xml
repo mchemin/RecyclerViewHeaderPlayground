@@ -17,9 +17,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".motionlayout.MotionLayoutActivity" />
+        <activity
+            android:name=".motionlayout.MotionLayoutActivity"
+            android:label="@string/motion_layout" />
 
-        <activity android:name=".mergeadapter.MergeAdapterActivity" />
+        <activity
+            android:name=".mergeadapter.MergeAdapterActivity"
+            android:label="@string/merge_adapter" />
     </application>
 
 </manifest>
