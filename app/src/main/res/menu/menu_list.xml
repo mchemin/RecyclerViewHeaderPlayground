@@ -16,4 +16,13 @@
         android:id="@+id/empty"
         android:title="@string/empty"
         />
+    <item
+        android:id="@+id/header_short"
+        android:title="@string/header_short"
+        />
+    <item
+        android:id="@+id/header_long"
+        android:title="@string/header_long"
+        />
+
 </menu>

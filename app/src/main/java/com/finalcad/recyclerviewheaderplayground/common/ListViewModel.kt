@@ -38,4 +38,12 @@ class ListViewModel : ViewModel() {
     fun empty() {
         _items.value = emptyList()
     }
+
+    fun headerShort() {
+        _header.value = "I'm the header !!"
+    }
+
+    fun headerLong() {
+        _header.value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
 }

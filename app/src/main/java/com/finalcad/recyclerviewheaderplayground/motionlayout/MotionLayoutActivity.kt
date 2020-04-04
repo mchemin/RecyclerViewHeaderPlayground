@@ -47,6 +47,8 @@ class MotionLayoutActivity : AppCompatActivity() {
         R.id.filtered -> true.also { viewModel.filterOriginal() }
         R.id.start -> true.also { viewModel.startOriginal() }
         R.id.empty -> true.also { viewModel.empty() }
+        R.id.header_short -> true.also { viewModel.headerShort() }
+        R.id.header_long -> true.also { viewModel.headerLong() }
         else -> super.onOptionsItemSelected(item)
     }
 }

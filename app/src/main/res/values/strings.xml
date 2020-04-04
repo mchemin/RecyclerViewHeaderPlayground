@@ -9,4 +9,6 @@
     <string name="filter">Filtered</string>
     <string name="start">Start</string>
     <string name="empty">Empty</string>
+    <string name="header_short">Header short</string>
+    <string name="header_long">Header long</string>
 </resources>
