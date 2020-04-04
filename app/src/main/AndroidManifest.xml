@@ -24,6 +24,10 @@
         <activity
             android:name=".mergeadapter.MergeAdapterActivity"
             android:label="@string/merge_adapter" />
+
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutActivity"
+            android:label="@string/coordinator_layout" />
     </application>
 
 </manifest>
